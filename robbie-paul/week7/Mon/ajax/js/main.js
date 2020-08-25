@@ -36,7 +36,7 @@ $(document).ready(function () {
       // globalData = data;
       // $('#results').append(`<p>${ data.results[0] }</p>`);
 
-      for (let i = 0; i < data.movies.length; i++) {
+      
         const movie = data.results[i];
         const $img = $(
           `<img src="https://image.tmdb.org/t/p/w200/${movie.poster_path}", id="${movie.id}">`);
